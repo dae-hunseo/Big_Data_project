@@ -1,0 +1,289 @@
+model,confusion,accuracy,precision,recall,f1,roc_auc
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.01,
+              verbose=True)",[[52923 18695] [1515  2597]],0.7331308596329064,0.12197069321811009,0.6315661478599222,0.20445599118249094,0.7560465654325972
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.01,
+              verbose=True)",[[53015 18603] [1513  2599]],0.7343721114485673,0.12258277520988586,0.6320525291828794,0.20534091806905272,0.75541004992115
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.01,
+              verbose=True)",[[53047 18571] [1507  2605]],0.7348738940974515,0.12301662259161315,0.6335116731517509,0.20602657386902878,0.7555539972099051
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.1,
+              verbose=True)",[[52923 18695] [1515  2597]],0.7331308596329064,0.12197069321811009,0.6315661478599222,0.20445599118249094,0.7560465654325972
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.1,
+              verbose=True)",[[53015 18603] [1513  2599]],0.7343721114485673,0.12258277520988586,0.6320525291828794,0.20534091806905272,0.75541004992115
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=0.1,
+              verbose=True)",[[53047 18571] [1507  2605]],0.7348738940974515,0.12301662259161315,0.6335116731517509,0.20602657386902878,0.7555539972099051
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], verbose=True)",[[52923 18695] [1515  2597]],0.7331308596329064,0.12197069321811009,0.6315661478599222,0.20445599118249094,0.7560465654325972
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], verbose=True)",[[53015 18603] [1513  2599]],0.7343721114485673,0.12258277520988586,0.6320525291828794,0.20534091806905272,0.75541004992115
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], verbose=True)",[[53047 18571] [1507  2605]],0.7348738940974515,0.12301662259161315,0.6335116731517509,0.20602657386902878,0.7555539972099051
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=10,
+              verbose=True)",[[52923 18695] [1515  2597]],0.7331308596329064,0.12197069321811009,0.6315661478599222,0.20445599118249094,0.7560465654325972
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=10,
+              verbose=True)",[[53015 18603] [1513  2599]],0.7343721114485673,0.12258277520988586,0.6320525291828794,0.20534091806905272,0.755409786757193
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=10,
+              verbose=True)",[[53047 18571] [1507  2605]],0.7348738940974515,0.12301662259161315,0.6335116731517509,0.20602657386902878,0.7555583198901261
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=100,
+              verbose=True)",[[52924 18694] [1510  2602]],0.7332100884722039,0.12218256949661908,0.6327821011673151,0.20481738035264485,0.756114881097974
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=100,
+              verbose=True)",[[53113 18505] [1518  2594]],0.7356001584576786,0.12294421536565714,0.6308365758754864,0.20578318987743444,0.7553406799021136
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], min_child_weight=100,
+              verbose=True)",[[53000 18618] [1507  2605]],0.734253268189621,0.12274419262121283,0.6335116731517509,0.20564436550226958,0.7558762915611612
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.01, verbose=True)",[[54037 17581] [1666  2446]],0.7458470883401558,0.12213511759125181,0.5948443579766537,0.2026595965035834,0.7453087425280451
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.01, verbose=True)",[[54080 17538] [1665  2447]],0.7464280998283375,0.12244183137353015,0.5950875486381323,0.20309582105656304,0.7444360908469959
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.01, verbose=True)",[[54195 17423] [1671  2441]],0.7478674237422421,0.12288562223117197,0.5936284046692607,0.2036202869536203,0.7439733620213513
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.1, verbose=True)",[[54037 17581] [1666  2446]],0.7458470883401558,0.12213511759125181,0.5948443579766537,0.2026595965035834,0.7453087425280451
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.1, verbose=True)",[[54080 17538] [1665  2447]],0.7464280998283375,0.12244183137353015,0.5950875486381323,0.20309582105656304,0.7444356528063452
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=0.1, verbose=True)",[[54195 17423] [1671  2441]],0.7478674237422421,0.12288562223117197,0.5936284046692607,0.2036202869536203,0.743973151490186
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5, verbose=True)",[[54037 17581] [1666  2446]],0.7458470883401558,0.12213511759125181,0.5948443579766537,0.2026595965035834,0.7453269297042142
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5, verbose=True)",[[54058 17560] [1661  2451]],0.746190413310445,0.12248263455099695,0.5960603112840467,0.2032085561497326,0.7447112788499686
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5, verbose=True)",[[54211 17407] [1675  2437]],0.7480258814208371,0.12280790163273533,0.5926556420233463,0.2034563366171314,0.7438296303572576
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=10, verbose=True)",[[54016 17602] [1653  2459]],0.7457414498877591,0.12257614276456806,0.5980058365758755,0.2034501303106772,0.7456465109199664
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=10, verbose=True)",[[54294 17324] [1672  2440]],0.7491614947841014,0.12345679012345678,0.5933852140077821,0.20438934494890268,0.7444114841681106
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=10, verbose=True)",[[54081 17537] [1680  2432]],0.7462432325366434,0.12178877259752617,0.5914396887159533,0.201984967401686,0.7437046138950787
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=100, verbose=True)",[[54062 17556] [1665  2447]],0.746190413310445,0.12233165025246213,0.5950875486381323,0.202944225585735,0.7461498366060834
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=100, verbose=True)",[[54159 17459] [1674  2438]],0.7473524362868084,0.12253103482937126,0.5928988326848249,0.20309050772626933,0.7448776816644904
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=5,
+              min_child_weight=100, verbose=True)",[[54202 17416] [1676  2436]],0.7478938333553413,0.1227080394922426,0.5924124513618677,0.20330495743615423,0.7441639589415873
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.01, verbose=True)",[[54604 17014] [1735  2377]],0.7524230820018487,0.12258264143159198,0.5780642023346303,0.20227205037654766,0.7406833745195678
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.01, verbose=True)",[[54230 17388] [1707  2405]],0.7478542189356926,0.12150760369827716,0.5848735408560312,0.20121313532733737,0.7398461633832679
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.01, verbose=True)",[[54112 17506] [1703  2409]],0.74634887098904,0.12096409741400954,0.5858463035019456,0.20052441003870647,0.7385578094267543
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.1, verbose=True)",[[54604 17014] [1735  2377]],0.7524230820018487,0.12258264143159198,0.5780642023346303,0.20227205037654766,0.7406832251103537
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.1, verbose=True)",[[54218 17400] [1702  2410]],0.7477617852898455,0.12165572942958101,0.5860894941634242,0.20148816988546106,0.7398763440445433
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=0.1, verbose=True)",[[54112 17506] [1703  2409]],0.74634887098904,0.12096409741400954,0.5858463035019456,0.20052441003870647,0.7385588094497906
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6, verbose=True)",[[54646 16972] [1742  2370]],0.7528852502310841,0.12253127908179093,0.5763618677042801,0.20209772320286518,0.740748533915294
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6, verbose=True)",[[54177 17441] [1708  2404]],0.7471411593820151,0.12113882590073066,0.5846303501945526,0.200692908127061,0.7401717990678605
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6, verbose=True)",[[54182 17436] [1712  2400]],0.7471543641885646,0.12099213551119177,0.5836575875486382,0.2004342742608986,0.7378345907295875
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=10, verbose=True)",[[54621 16997] [1741  2371]],0.7525683348738941,0.12241842213961172,0.5766050583657587,0.20195911413969334,0.7407277796171712
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=10, verbose=True)",[[54207 17411] [1696  2416]],0.7476957612570976,0.12185403742371513,0.5875486381322957,0.201846359497055,0.7402211075042218
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=10, verbose=True)",[[54541 17077] [1750  2362]],0.7513931070909812,0.12150830804053707,0.5744163424124513,0.20058596237951679,0.7376682931806483
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=100, verbose=True)",[[54525 17093] [1727  2385]],0.7514855407368282,0.12244583632816511,0.5800097276264592,0.20220432386604495,0.7429226247439262
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=100, verbose=True)",[[54511 17107] [1724  2388]],0.7513402878647828,0.12249294690946397,0.580739299610895,0.20231287330029227,0.7414524109105455
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=6,
+              min_child_weight=100, verbose=True)",[[54232 17386] [1710  2402]],0.7478410141291431,0.1213866990095007,0.5841439688715954,0.2010041841004184,0.7398212239293146
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.01, verbose=True)",[[55161 16457] [1811  2301]],0.7587745939521986,0.12266766179763301,0.5595817120622568,0.20122431132487978,0.7337285368909822
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.01, verbose=True)",[[54865 16753] [1807  2305]],0.7549187904397201,0.12094658411165915,0.5605544747081712,0.1989641778161416,0.7306372653419628
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.01, verbose=True)",[[54704 16914] [1813  2299]],0.7527135877459395,0.11965856451361058,0.5590953307392996,0.19712754555198286,0.7268549201486529
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.1, verbose=True)",[[55158 16460] [1810  2302]],0.7587481843390994,0.12269480865579363,0.5598249027237354,0.20127655853807816,0.7337355149804199
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.1, verbose=True)",[[54980 16638] [1808  2304]],0.7564241383863727,0.12163446309787773,0.5603112840466926,0.19987854602238223,0.7307687403569936
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=0.1, verbose=True)",[[54704 16914] [1813  2299]],0.7527135877459395,0.11965856451361058,0.5590953307392996,0.19712754555198286,0.7268550474860513
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8, verbose=True)",[[55133 16485] [1806  2306]],0.7584708834015582,0.12271832260124528,0.5607976653696498,0.2013709994323888,0.733930232538871
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8, verbose=True)",[[54788 16830] [1796  2316]],0.7540472732074475,0.12096521466624882,0.5632295719844358,0.19915727921575374,0.7306680555249191
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8, verbose=True)",[[54742 16876] [1819  2293]],0.7531361415555262,0.11962022014711253,0.557636186770428,0.19698466560714747,0.7273404831165958
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=10, verbose=True)",[[55098 16520] [1804  2308]],0.7580351247854219,0.12258338644571914,0.561284046692607,0.20122057541412383,0.735304882201429
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=10, verbose=True)",[[54952 16666] [1800  2312]],0.7561600422553809,0.12182527136684582,0.5622568093385214,0.20025985275010827,0.7313816509104237
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=10, verbose=True)",[[54635 16983] [1785  2327]],0.7521721906774066,0.12050750906266183,0.5659046692607004,0.1987020749722483,0.72926286865637
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=100, verbose=True)",[[54935 16683] [1793  2319]],0.7560279941898851,0.1220397852857594,0.5639591439688716,0.20065761010642902,0.7398825750879098
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=100, verbose=True)",[[54823 16795] [1776  2336]],0.7547735375676746,0.12210548324708588,0.5680933852140078,0.20100675472185173,0.7365717416050765
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=8,
+              min_child_weight=100, verbose=True)",[[54578 17040] [1778  2334]],0.7515119503499273,0.12047073397336637,0.5676070038910506,0.19875670612279656,0.7344121349810653
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.01, verbose=True)",[[55237 16381] [1845  2267]],0.7593291958272811,0.12156799656799656,0.5513132295719845,0.19920913884007033,0.7296797509250603
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.01, verbose=True)",[[55174 16444] [1852  2260]],0.7584048593688103,0.12082976903336184,0.5496108949416343,0.19810659186535762,0.7215239824064403
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.01, verbose=True)",[[55110 16508] [1881  2231]],0.7571768123596989,0.11905651315438391,0.5425583657587548,0.19526497746269308,0.712391783924829
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.1, verbose=True)",[[55238 16380] [1845  2267]],0.7593424006338307,0.12157451600793694,0.5513132295719845,0.19921789182301508,0.7296545924507816
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.1, verbose=True)",[[55084 16534] [1842  2270]],0.7573484748448436,0.12071899595830675,0.5520428015564203,0.19811485425030548,0.7208043053867834
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=0.1, verbose=True)",[[55043 16575] [1875  2237]],0.7563713191601743,0.11891345949394004,0.5440175097276264,0.19516663758506367,0.7121906689354773
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              verbose=True)",[[55204 16414] [1844  2268]],0.7589066420176944,0.12140027834278985,0.5515564202334631,0.19899973677283497,0.7298415356365968
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              verbose=True)",[[55191 16427] [1848  2264]],0.7586821603063515,0.12112781552618908,0.5505836575875487,0.19857036354865587,0.721913565234725
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              verbose=True)",[[55132 16486] [1898  2214]],0.7572428363924468,0.11839572192513369,0.5384241245136187,0.19410836401893738,0.7123749685968996
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=10, verbose=True)",[[55226 16392] [1839  2273]],0.7592631717945332,0.12177873024377177,0.5527723735408561,0.1995873029810774,0.731996488503151
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=10, verbose=True)",[[55064 16554] [1835  2277]],0.7571768123596989,0.1209176358132866,0.5537451361867705,0.1984919147452382,0.7245727130773703
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=10, verbose=True)",[[55064 16554] [1864  2248]],0.756793872969761,0.11956174875013297,0.546692607003891,0.19621192284193067,0.7193207347092166
+"XGBClassifier(colsample_bytree=0.5, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=100, verbose=True)",[[55087 16531] [1812  2300]],0.7577842334609798,0.12213902607402687,0.5593385214007782,0.2004968835810487,0.7385822616029293
+"XGBClassifier(colsample_bytree=0.75, early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=100, verbose=True)",[[55257 16361] [1828  2284]],0.7598177736696158,0.1224993295789756,0.5554474708171206,0.2007294458847827,0.7335452151807802
+"XGBClassifier(early_stopping_rounds=100,
+              eval_metric=['rmse', 'error', 'logloss'],
+              eval_set=['rmse', 'error', 'logloss'], max_depth=10,
+              min_child_weight=100, verbose=True)",[[54843 16775] [1796  2316]],0.7547735375676746,0.12131370802996176,0.5632295719844358,0.19962935827263714,0.7310059155997671

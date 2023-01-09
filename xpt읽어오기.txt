@@ -1,0 +1,2 @@
+library(foreign) 
+a = read.xport("LLCP2021.XPT")
